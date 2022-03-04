@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(236, 232, 232);
+} 
+h1{ 
+    font-size: 80px;
+    color: #0000ff;
+    letter-spacing: -2px; 
+    padding: 30px 0px 10px 30px;
+    width: 87%;
+    margin-bottom: 5px;
+} 
+.main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+.second_div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    column-gap: 3px;
+    margin-left: 70px;
+    padding-top: 30px;
+    height: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    background: white;
+    width: 335px;
+    height: 325px;
+    margin-top: 50px;
+    outline: none;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 62px;
+}
+.form_item_width{
+    width: 94.6%;
+    height: 37px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(179, 175, 175);
+    padding-left: 10px;
+}
+input:focus{
+    border-color: rgb(74, 74, 240);
+}
+.form_item3{
+    width: 98.9%;
+    height: 45px;
+    border: 1px solid rgb(179, 175, 175);
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    background: rgb(97, 97, 253);
+}
+.form_item4{
+    width: 98%;
+    height: 40px;
+    color: blue;
+    font-size: 18px;
+    border-bottom: 1px solid gray;  
+    text-align: center;
+}
+.form_item5{
+    width: 69%;
+    height: 45px;
+    border: 1px solid rgb(179, 175, 175);
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    background: rgb(18, 184, 26);
+    margin: 24px 0px 0px  45px;
+}
+.form_item5:hover {
+    background: rgb(11, 180, 62);
+} 
+.seventh_div{ 
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 10px 65px;
+    width: 90%;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    font-family: bold;
+} 
+    
+@media only screen and (min-width: 530px) {
+body{
+    background-color: rgb(236, 232, 232);
+    height: 100vh;
+}  
+h1{
+    font-size: 98px;
+    font-weight: bold;
+    text-align: center;
+}
+.main_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 250px;
+    margin-top: 30px;
+}
+.second_div{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    align-self: flex-start;
+}
+.fifth_div{
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    background: white;
+    width: 300px;
+    height: 325px;
+    outline: none;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5px;
+}
+.right_items{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 50px 70px 0px 0px;
+    align-items: center;
+}
+}
